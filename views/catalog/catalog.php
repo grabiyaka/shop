@@ -28,7 +28,7 @@
     <body>
 
 
-    <?php include ROOT.'/views/loyauts/header.php'; ?>
+    <?php include ROOT.'/views/layouts/header.php'; ?>
 
 
 
@@ -88,4 +88,4 @@
                 </div>
             </div>
         </section>
-        <?php include ROOT.'/views/loyauts/footer.php'; ?>
+        <?php include ROOT.'/views/layouts/footer.php'; ?>

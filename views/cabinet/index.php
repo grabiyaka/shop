@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="template/css/bootstrap.min.css" rel="stylesheet">
+        <link href="template/css/bootstrap.min.css" rel="stylesheet">
         <link href="template/css/font-awesome.min.css" rel="stylesheet">
         <link href="template/css/prettyPhoto.css" rel="stylesheet">
         <link href="template/css/price-range.css" rel="stylesheet">
@@ -15,7 +15,7 @@
         <link href="template/css/responsive.css" rel="stylesheet">
 </head>
 <body>
-    <?php include ROOT . '/views/loyauts/header.php'; ?>
+    <?php include ROOT . '/views/layouts/header.php'; ?>
     <selection>
         <div class="contrainer">
             <div class="row">
@@ -28,6 +28,6 @@
             </div>
         </div>
     </selection>
-<?php include ROOT . '/views/loyauts/footer.php'; ?>
+<?php include ROOT . '/views/layouts/footer.php'; ?>
 </body>
 </html>

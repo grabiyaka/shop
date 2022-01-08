@@ -53,7 +53,13 @@ class User
         }
         return false;
     }
-
+    public static function checkPhone($phone)
+    {
+        if (strlen($phone) >= 10) {
+            return true;
+        }
+        return false;
+    }
     public static function checkEmail($email)
     {
         if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -78,12 +84,11 @@ class User
     }
     public static function checkLogged()
     {
-        session_start();
         if(isset($_SESSION['user'])) {
             return $_SESSION['user'];
         }
 
-        header("Location: http://localhost/php/practice/test2/user/login");
+        header("Location: http://localhost/learning/php/practice/test2/user/login/");
     }
     public static function isGuest()
     {

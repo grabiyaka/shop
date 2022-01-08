@@ -15,7 +15,7 @@
     <link href="template/css/responsive.css" rel="stylesheet">
 </head>
 <body>
-    <?php include ROOT . '/views/loyauts/header.php'; ?>
+    <?php include ROOT . '/views/layouts/header.php'; ?>
 
     <selection>
 
@@ -51,7 +51,7 @@
 
     </selection>
 
-    <?php include ROOT . '/views/loyauts/footer.php'; ?>
+    <?php include ROOT . '/views/layouts/footer.php'; ?>
 </body>
 </html>
 

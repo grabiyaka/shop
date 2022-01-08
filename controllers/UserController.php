@@ -77,6 +77,6 @@ class UserController
     {
         session_start();
         unset($_SESSION['user']);
-        header("Location: http://localhost/php/practice/test2/");
+        header("Location: http://localhost/learning/php/practice/test2/");
     }
 }

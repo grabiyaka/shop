@@ -28,7 +28,7 @@
     <body>
 
 
-    <?php include ROOT.'/views/loyauts/header.php'; ?>
+    <?php include ROOT.'/views/layouts/header.php'; ?>
 
 
 
@@ -69,7 +69,9 @@
                                                     <?php echo $product['name'] ?>
                                                 </a>
                                             </p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                            <a href="cart/add/<?php echo $product['id'] ?>" class="btn btn-default add-to-cart" data-id="<?php echo $product['id']; ?>">
+                                                <i class="fa fa-shopping-cart"></i>В корзину
+                                            </a>
                                             
                                         </div>
                                         <?php if ($product['is_new']): ?>
@@ -91,4 +93,4 @@
                 </div>
             </div>
         </section>
-        <?php include ROOT.'/views/loyauts/footer.php'; ?>
+        <?php include ROOT.'/views/layouts/footer.php'; ?>
