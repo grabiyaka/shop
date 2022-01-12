@@ -18,6 +18,9 @@ class CartController{
     public function actionDelete($id)
     { 
         unset($_SESSION['products'][$id]);
+
+        // Cart::deleteProduct($id);
+
         header("Location: ../");
     }
 
